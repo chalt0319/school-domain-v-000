@@ -7,6 +7,6 @@ class School
     @name 
   end 
   def roster
-    @roster = roster
+    @new_roster = roster
   end 
 end 
