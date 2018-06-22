@@ -4,9 +4,9 @@ class School
     @school_name = school_name 
     @roster = {}
   end
-  def name 
-    @name 
-  end 
+  # def name 
+  #   @name 
+  # end 
   def roster
     @roster
   end 
