@@ -1,7 +1,7 @@
 # code here!
 class School
-  def initialize(name)
-    @name = name 
+  def initialize(school_name)
+    @school_name = school_name 
     @roster = {}
   end
   def name 
@@ -10,4 +10,5 @@ class School
   def roster
     @roster
   end 
+  def add_student()
 end 
