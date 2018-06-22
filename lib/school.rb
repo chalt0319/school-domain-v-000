@@ -2,11 +2,12 @@
 class School
   def initialize(name)
     @name = name 
+    @roster = {}
   end
   def name 
     @name 
   end 
   def roster
-    @new_roster = roster
+    @roster
   end 
 end 
